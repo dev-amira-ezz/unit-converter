@@ -3,19 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>Unit Converter</title>
   </head>
   <body>
     <div class="container">
-      <section>
-        <label for="input"
-          >Metric/Imperial Unit Conversion
-          <input type="number" name="input" id="input" />
-        </label>
+      <section class="converter">
+        <label for="input">Metric/Imperial Unit Conversion</label>
+        <input type="number" name="input" id="input" min="1"  onwheel="this.blur()" />
         <button type="submit">Convert</button>
       </section>
-      <section>
+      <section class="results">
         <div id="length"></div>
         <div id="volume"></div>
         <div id="mass"></div>
