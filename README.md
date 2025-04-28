@@ -3,6 +3,9 @@ This project was created by Amira Ezzeldin.  I'm a front-end web developer.
 
 This project is a part of the Scrimba front-end web development tutorial.
 
+* [Live preview](https://scrimba-unit-convert.netlify.app/)
+
+
 ## Tools used
 I created the web page from a Figma design using HTML and CSS.
 I gave it the functionality using JavaScript.
